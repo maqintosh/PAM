@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/wiadomo" />
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLogClick"
+        android:text="@string/log" />
+
+    <Button
+        android:id="@+id/toastButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onToastClick"
+        android:text="@string/welcome_toast" />
+
+    <Button
+        android:id="@+id/rewriteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRewriteClick"
+        android:text="@string/przepisz_wiadomosc" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="@string/przepisana_wiadomosc" />
+
+    <EditText
+        android:id="@+id/loginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/login"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLoginClick"
+        android:text="@string/zaloguj" />
+</LinearLayout>

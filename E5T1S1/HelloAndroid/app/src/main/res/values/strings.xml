@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+
+
+    <!-- INNE TEKSTY -->
+    <string name="welcome_toast">Toast</string>
+    <string name="przepisz_wiadomosc">Przepisz wiadomość</string>
+    <string name="przepisana_wiadomosc">Przepisana wiadomość</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="log">Log</string>
+    <string name="wiadomo">Wiadomość</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+
+
+</resources>
